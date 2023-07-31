@@ -18,7 +18,7 @@
 $(call inherit-product, device/realme/sm8250-common/common.mk)
 
 # Inherit proprietary libraries
-$(call inherit-product, vendor/realme/bitra/bitra-vendor.mk)
+$(call inherit-product, vendor/realme/spartan/spartan-vendor.mk)
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
@@ -44,4 +44,4 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    device/realme/bitra
+    device/realme/spartan
